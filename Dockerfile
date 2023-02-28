@@ -1,4 +1,4 @@
-FROM node:v16.18.1 as node
+FROM node:16.18.1-alpine3.17 as node
 WORKDIR /app/
 RUN git clone https://github.com/MrHongping/nginxconfig.git \
 	&& npm ci \
