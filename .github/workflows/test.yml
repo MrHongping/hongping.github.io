@@ -1,11 +1,9 @@
 name: My-Frist-Github-Actions
 
-on:
+on: [manual]
 #  push:
 #    branches:
 #      - master
-
-  workflow_dispatch: 
 # permissions:
 #   contents: write
 
